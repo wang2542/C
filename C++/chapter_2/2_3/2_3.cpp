@@ -39,12 +39,27 @@ void f2_3_2() {
 	std :: cout << "pointer pd2 address is : <"<< &pd2 << ">, and it store address (pd) is <" << pd2 << ">" <<std :: endl;
 	std :: cout << "pointer pd value is : " <<  *pd  << ", pointer pd2 value is : " << *pd2 << std :: endl;
 
-	
+	std :: cout << "-----------------2_3_2 Finished----------------------" << std :: endl;
 
 }
+
+void f2_3_3() {
+	int ival = 1024;
+	int *pi = &ival;	// pi 指向一个int型的数
+	int **ppi = &pi;	// ppi指向一个int型的指针
+
+	std :: cout << "ival value is:<" << ival << ">" << std::endl;
+	std :: cout << "ival address is:<" << &ival << ">" << std::endl;
+	std :: cout << "pointer pi address is : <"<< &pi << ">, and it store address (ival) is <" << pi << ">, the *pi is:" << *pi <<std :: endl;
+	std :: cout << "pointer ppi address is : <"<< &ppi << ">, and it store address (pi) is <" << ppi << ">, the * ppi is:" << **ppi <<std :: endl;
+
+
+}
+
 
 int main() {
 	f2_3_1();
 	f2_3_2();
+	f2_3_3();
 	return 0;
 }
