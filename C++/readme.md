@@ -1,2 +1,11 @@
 ## chapter 1
-- 1.2 Input/Output 输入输出
+- 1.2 Input/Output 输入输出 两数相加
+- 1.4 Flow of Control 控制流
+    - 1.4.1 The ```while``` Statement - sum 1 to 10 - while语句
+    - 1.4.2 The ```for``` Statement - sum 1 to 10 - for语句
+    - 1.4.3 Reading an Unknown Number of Inputs - 读取数量不定的输入数据
+    - 1.4.4 The ```if``` Statement - how many time number coours 
+- 1.5 Introducing Classes 类简介
+    - 1.5.1 The Sales_item Class 
+    - 1.5.2 A First Look at Member Functions 成员函数
+- 1.6 The Bookstore Program 书店程序
