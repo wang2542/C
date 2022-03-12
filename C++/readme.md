@@ -22,3 +22,13 @@
 - 2.6 Defining Our Own Data Structures - 自定义数据结构
     - 2.6.1 Defineing the ```Sales_data``` Type - 定义Sales_data类型
     - 2.6.2 Using the ```Sales_data``` Class - 使用Sales_data类
+
+## Strings, Vectors and Arrays 字符串，向量和数组
+- 3.1 Namespace ```using``` Declarations 命名空间的using声明
+- 3.2 Library ```string``` Type
+    - 3.2.1 Defining and Initializing ```strings```
+    - 3.2.2 Operations on ```strings```
+- 3.3 Libarary ```vectir``` Type - 标准库类型vector
+    - 3.3.1 Defining and Initializing ```vectors``` - 定义/初始化 vector 对象
+    - 3.3.2 Adding Elements to a ```vector``` - 向vector对象中添加元素
+    - 3.3.3 Other ```vector``` Operations - 其他vector操作
