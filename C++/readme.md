@@ -32,3 +32,11 @@
     - 3.3.1 Defining and Initializing ```vectors``` - 定义/初始化 vector 对象
     - 3.3.2 Adding Elements to a ```vector``` - 向vector对象中添加元素
     - 3.3.3 Other ```vector``` Operations - 其他vector操作
+-3.4 Introducing Iterators - 介绍迭代器
+    - 3.4.1 Using Iterators - 使用迭代器
+    - 3.4.2 Iterator Arithmetic - 迭代器运算
+-3.5 Arrays 数组
+    - 3.5.1 Defining and Initializing Built-in Arrays - 定义和初始化内置数组
+    - 3.5.2 Accessing the Elements of an Array - 访问数组元素
+    - 3.5.3 Pointers and Arrays - 指针和数组
+    - 3.5.4 C-style Character Stings - C风格字符串
