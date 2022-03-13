@@ -65,10 +65,27 @@ void f3_5_4() {
 	
 }
 
+void f3_5_6() {
+	//int ia[3][4] = {0,1,2,3,4,5,6,7,8,9,10,11};
+	constexpr size_t rowCnt = 3, colCnt = 4;
+	int ia[rowCnt][colCnt];
+
+	for (size_t i = 0; i != rowCnt; ++i) {
+		for (size_t j = 0; j != colCnt; ++j) {
+			ia[i][j] = i * colCnt + j;
+			cout << ia[i][j] << " ";
+		}
+		cout << endl;
+	}
+
+
+}
+
 int main() {
 	f3_5_1();
 	f3_5_2();
 	f3_5_3();
 	f3_5_4();
+	f3_5_6();
 	return 0;
 }
