@@ -40,3 +40,6 @@
     - 3.5.2 Accessing the Elements of an Array - 访问数组元素
     - 3.5.3 Pointers and Arrays - 指针和数组
     - 3.5.4 C-style Character Stings - C风格字符串
+
+## chapter 4 Expressions 表达式
+- 4.8 The Bitwise Operators 位运算符
