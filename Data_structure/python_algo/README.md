@@ -143,7 +143,32 @@ def find_lowest_cost_node(costs):
             lowest_cost = cost          // 将其视为开销最低的节点
             lowest_cost_node = node
     return lowest_cost_node
-
 ```
 
+### 贪婪算法
 
+可以解决背包问题以及排课问题，每一步都选择最优解
+
+```
+while states_needed:
+    best_station = None
+    states_covered = set()
+    for station, states in stations.items():
+        covered = states_needed & states
+        if len(covered) > len(states_covered):
+            best_station = station
+            states_covered = covered
+
+states_needed -= states_covered
+final_stations.add(best_station)
+```
+
+### 动态规划
+
+![Drag Racing](dynamic.png)
+```
+if word_a[i] == word_b[j]:      // 两个字母相同
+    cell[i][j] = cell[i-1][j-1] + 1
+else:                           // 两个字母不同
+    cell[i][j] = max(cell[i-1][j], cell[i][j-1])
+```
